@@ -1,2 +1,2 @@
 alert("hola mundo perraass")
-document.write("<label color="red"> Esto es un color rojo puteros </label>")
+document.write("<label background-color='red'> Esto es un color rojo puteros </label>")
