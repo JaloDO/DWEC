@@ -6,22 +6,27 @@
 		<meta name="description" content="primer proyecto con felix">
 		<meta name="author" content="">
 		<title>Ejercicio 1</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<script src="codigo.js">
 			
 		</script>
 	</head>
 
-	<body>
-		<div>
-			<form name="formulario" method="post" action="http://www.google.es"> 
-				<input type="text" id="cajaTexto" value="hey soulmate" />
-  				<input type="button"  value="Submit" class="btn btn-dark" onclick="alert(document.getElementById('cajaTexto').value)"/>
+	<body class="bg-inverse">
 
-			</form>
-		</div>
-		<div>
-			<script>document.write("<label>hola puterosssss</label>")</script>
+		<div class="container align-content-center bg-dark">
+			<div class="navbar-light "><p></p></div>
+			<div class="row">
+				<form name="formulario" method="post" action="http://www.google.es" class="form-group"> 
+					<input type="text" id="cajaTexto" value="hey soulmate" class="text-dark"/>
+  					<input type="button"  value="Submit" class="btn btn-outline-light" onclick="accion();"/>
+  					<script>document.write("<br /><label class='btn-secondary'>hola puterosssss</label>")</script>
 
+				</form>
+			</div>
+			<div class="flex-row">
+				
+			</div>
 		</div>
 
 	</body>
