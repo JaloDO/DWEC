@@ -14,7 +14,8 @@
 	<body>
 		<div>
 			<form name="formulario" method="post" action="http://www.google.es"> 
-  				<input type="button"  value="Submit" class="btn btn-dark" onclick="document.write('este es el nuevo hola baby')" />
+				<input type="text" id="cajaTexto" value="hey soulmate" />
+  				<input type="button"  value="Submit" class="btn btn-dark" onclick="alert(document.getElementById('cajaTexto').value)"/>
 
 			</form>
 		</div>
