@@ -12,6 +12,15 @@ function accion(){
 		document.getElementById("resultado").innerHTML = result;
 	}
 }
-objetoArray = document.getElementById("salidaArray")
-var array1 = ["valor1", "valor2", "valor3", true, 5, 6, 7, objetoArray];
+
+var array1 = ["valor1", "valor2", "valor3", true, 5, 6, 7];
 document.getElementById("salidaArray").innerHTML=array1;
+
+console.log("Longitud array1: "+array1.length);
+codHTML="<ul>";
+for(i=0; i<array1; i++){
+	console.log("POS "+i+": "+array1[i]);
+	codHTML+="<li>"+array[i]+"</li>";
+}
+codHTML+="</ul>";
+document.write(codHTML);
