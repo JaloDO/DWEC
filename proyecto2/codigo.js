@@ -26,9 +26,13 @@ function accion(){
  function accion2(){
  	document.getElementById("edad2").value="";
 
- 	age = prompt("Introduce una Edad", "");
- 	age = parseInt(age)
+ 	age = prompt("Introduce una Edad");
+ 	console.log(age);
 
+ 	if(age==null){
+ 		return 0;
+ 	}
+ 	age = parseInt(age);
  	if(isNaN(age)){
  		alert("Campo incorrecto\nIntroduce un valor numérico");
  	}else{
