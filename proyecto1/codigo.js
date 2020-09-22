@@ -7,4 +7,5 @@ document.write("<label background-color='red'> esto va con un document.write en 
  function accion(){
  	myObject = document.getElementById('cajaTexto');
  	alert(myObject.value);
+
  }
